@@ -4,7 +4,54 @@
  * 
  */
 
-var revapi;
+//full width slider
+
+
+jQuery(document).ready(function () {
+
+    revapi = jQuery('.tp-banner').revolution(
+            {
+                delay: 6000,
+                startwidth: 1170,
+                startheight: 500,
+                hideThumbs: 10,
+                fullWidth: "on",
+                forceFullWidth: "on",
+                navigationStyle: "preview4"
+            });
+
+});	//ready
+
+jQuery(document).ready(function () {
+
+    revapi = jQuery('.tp-banner-boxed').revolution(
+            {
+                delay: 6000,
+                startwidth: 1170,
+                startheight: 500,
+                hideThumbs: 10,
+                navigationStyle: "preview4"
+            });
+
+});
+
+
+
+jQuery(document).ready(function () {
+
+    revapi = jQuery('.tp-fullscreen-banner').revolution(
+            {
+                delay: 15000,
+                startwidth: 1170,
+                startheight: 500,
+                hideThumbs: 10,
+                fullWidth: "off",
+                fullScreen: "on",
+                fullScreenOffsetContainer: ""
+
+            });
+
+});	//ready
 
 
 //ken burns effect

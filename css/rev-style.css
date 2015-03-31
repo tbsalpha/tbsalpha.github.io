@@ -30,8 +30,8 @@ body {
    line-height: 30px;
 }
 .rev-title-v1{
-  font-family: 'Source Sans Pro', sans-serif !important;
-   font-weight: 800 !important;
+  font-family: 'Raleway', sans-serif !important;
+   font-weight: 700 ;
    text-transform: uppercase;
 }
 .rev-buttons a{
@@ -45,11 +45,22 @@ body {
     color:#333;
 }
 .tp-caption.modern_big_redbg{
-    font-family: 'Source Sans Pro', sans-serif !important; 
+      font-family: 'Raleway', sans-serif !important; 
 }
 .slider-text-title{
     font-size: 50px;
     color:#fff;
+}
+.lowercase-title{
+    font-weight: 700;
+    font-size: 45px;
+    color:#fff;
+}
+.lowercase-caption{
+    font-weight: 300;
+    font-size: 20px;
+    color:#fff;
+    line-height: 26px;
 }
 /************box slider*******/
 .tp-banner-container{
@@ -63,13 +74,86 @@ body {
 .Ken-burns-heading{
     font-size: 60px;
     color:#fff;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
-   font-family: 'Source Sans Pro', sans-serif !important; 
+      font-family: 'Raleway', sans-serif !important; 
 }
 .ken-burns-cap{
     color:#fff;
     font-weight: 400;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+/***index page slider****/
+.caption.title-2 {
+color: #fff;
+font-size: 48px;
+line-height: 56px;
+font-weight: 800;
+text-transform: uppercase;
+  font-family: 'Raleway', sans-serif !important;
+}
+.caption.text{
+    font-size: 16px;
+    font-weight: 300;
+    color:#fff;
+}
+.caption.title {
+color: #fff;
+font-size: 72px;
+line-height: 85px;
+font-weight: 700;
+text-transform: uppercase;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.caption.subtitle {
+padding-left: 25px;
+border-left: 3px solid #bbb;
+color: #fff;
+font-size: 24px;
+line-height: 33px;
+text-transform: uppercase;
+}
+.revo-slider-emphasis-text {
+font-size: 64px;
+font-weight: 700;
+letter-spacing: -1px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.revo-slider-caps-text {
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 3px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***shop slide****/
+.shop-slide-heading{
+    color:#fff;
+    font-size: 45px;
+      font-family: 'Source Sans Pro', sans-serif !important;
+      font-weight: 400;
+}
+.shop-slide-text{
+    color:#fff;
+}
+.shop-discount{
+    color:#fff;
+    width:80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #3498db;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.modern_big_bluebg{
+ font-family: 'Source Sans Pro', sans-serif !important;  
+ text-transform: uppercase;
 }
